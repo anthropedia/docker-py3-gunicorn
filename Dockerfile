@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:alpine3.6
 
 RUN apk add --update --no-cache \
 		build-base bash git openssh python-dev py-gunicorn && \
